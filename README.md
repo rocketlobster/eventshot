@@ -1,0 +1,29 @@
+# eventshot
+
+[![CI Status](https://img.shields.io/travis/rocketlobster/eventshot.svg?style=flat)](https://travis-ci.org/rocketlobster/eventshot)
+[![Version](https://img.shields.io/cocoapods/v/eventshot.svg?style=flat)](https://cocoapods.org/pods/eventshot)
+[![License](https://img.shields.io/cocoapods/l/eventshot.svg?style=flat)](https://cocoapods.org/pods/eventshot)
+[![Platform](https://img.shields.io/cocoapods/p/eventshot.svg?style=flat)](https://cocoapods.org/pods/eventshot)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+eventshot is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'eventshot'
+```
+
+## Author
+
+rocketlobster, theo@cheerz.com
+
+## License
+
+eventshot is available under the MIT license. See the LICENSE file for more info.
