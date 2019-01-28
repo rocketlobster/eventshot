@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'EventShot'
-  s.version          = '0.1.0'
+  s.name             = 'eventshot'
+  s.version          = '0.1.2'
   s.summary          = 'Record when events are triggered with screenshots'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'eventshot/Classes/**/*'
+  s.source_files = 'Pod/Models/**/*'
   
   # s.resource_bundles = {
   #   'eventshot' => ['eventshot/Assets/*.png']
