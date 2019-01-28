@@ -1,19 +1,12 @@
-//
-//  AppDelegate.swift
-//  EventShot
-//
-//  Created by rocketlobster on 01/28/2019.
-//  Copyright (c) 2019 rocketlobster. All rights reserved.
-//
-
 import UIKit
+import EventShot
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

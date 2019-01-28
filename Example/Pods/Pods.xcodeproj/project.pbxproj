@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		01CED6C6BB24478E8C1219E893281B48 /* Pods-EventShot_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4BCFFDA07DD9C9B1EF20EFA2F11BB8 /* Pods-EventShot_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		092AFB9C9C95F916DA84042F5618650F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA1BC8690201CACA33B43216F1F450 /* ReplaceMe.swift */; };
+		075D8A28562F159FC743761B2012BBE9 /* EventShot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 655DF23DA6EDD9E7C571C363F3FF5BBB /* EventShot-dummy.m */; };
 		0950F37C857FC0386EC697E94E642118 /* Pods-EventShot_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9122607BF71A7D0E1E420617E431B7 /* Pods-EventShot_Example-dummy.m */; };
-		112800E81FEB4997D0931DFDE8B7A1C7 /* EventShot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0828A873B3EC0355403425204D9034C6 /* EventShot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		112800E81FEB4997D0931DFDE8B7A1C7 /* EventShot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A16747208F7932AD0D7876E36F407D3F /* EventShot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27F0774ACCEEB87940AA1B34CAC9A9D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		718A379F24E4AC0FE1608CC3BDFE7744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		7492C3F7BACEBB580039BCD9FF606BC7 /* Pods-EventShot_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD02C9249D5CE48F33E34B747BB4F2AF /* Pods-EventShot_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81BBE416235CAEE55DC5CC3908127C1A /* Pods-EventShot_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692B3C9AA4603E1548A7848A0255D3F /* Pods-EventShot_Tests-dummy.m */; };
+		9D5D07B55FC5BB6DBFA32E7A9C5D073B /* EventShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E225AF25619AA75DD2FFAE0A575BA502 /* EventShot.swift */; };
 		E6AA24164DAE2BD4726F874D227039A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		FCC7044AAF78E81750A7EA2A3D5DB133 /* EventShot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E48D04D2F0519BE17CFD4C1D84F14839 /* EventShot-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,39 +37,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0828A873B3EC0355403425204D9034C6 /* EventShot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventShot-umbrella.h"; sourceTree = "<group>"; };
-		0907BDB02F3C91F13DD561A49C2AD242 /* EventShot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EventShot.xcconfig; sourceTree = "<group>"; };
+		05659982E7909FA6C05B69C3E17D9A68 /* EventShot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EventShot.modulemap; sourceTree = "<group>"; };
 		0913E2BEA82BF9B3B69952911417260F /* Pods-EventShot_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EventShot_Example-frameworks.sh"; sourceTree = "<group>"; };
 		12A3EE866A55BF0E261A5D7D99CE54A2 /* Pods-EventShot_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventShot_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		145BE8151D52F4DE84D17C5B3C634BA8 /* Pods-EventShot_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EventShot_Tests-resources.sh"; sourceTree = "<group>"; };
-		168192DBD87E212DD29E693C6B9703AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1A28707F73E3EA472791E0C5883FD2D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2362B32DCB9CDD1A900CB71975FDF1A3 /* Pods-EventShot_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventShot_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2436A45BE39C7470A1E1859BB857A338 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263AB46698D0B391BBBA83559F00E723 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2692B3C9AA4603E1548A7848A0255D3F /* Pods-EventShot_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EventShot_Tests-dummy.m"; sourceTree = "<group>"; };
 		2F871F16C269382712B80DE7EBD6D202 /* Pods-EventShot_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventShot_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3960F2D3F572A3EC6EE4FCB263526087 /* EventShot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventShot-prefix.pch"; sourceTree = "<group>"; };
 		402AB6A2D774CE408BDC7ECBABBF40F8 /* Pods-EventShot_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventShot_Example.release.xcconfig"; sourceTree = "<group>"; };
 		40F492DF95B0EAC0DDC8F170B4417304 /* Pods_EventShot_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventShot_Example.framework; path = "Pods-EventShot_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44AA1BC8690201CACA33B43216F1F450 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EventShot/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4B1F2C0DC73EA3B68AD97D366EC05592 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4E9122607BF71A7D0E1E420617E431B7 /* Pods-EventShot_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EventShot_Example-dummy.m"; sourceTree = "<group>"; };
 		626E83D14C47818E01E85A90B470764C /* Pods-EventShot_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventShot_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		655DF23DA6EDD9E7C571C363F3FF5BBB /* EventShot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EventShot-dummy.m"; sourceTree = "<group>"; };
 		66E17ADED850C9099778AA344D42B09C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7720FBE80A9DDDCD2BB01709FD264AA4 /* Pods_EventShot_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventShot_Tests.framework; path = "Pods-EventShot_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83FE56164E6EDA4B8944C3978CC1C7E6 /* EventShot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EventShot.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A28A7850751E23169589F3C2CB5AF2F /* EventShot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EventShot.framework; path = EventShot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE47CCBC0665B347393B907B6328D1E /* Pods-EventShot_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventShot_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A16747208F7932AD0D7876E36F407D3F /* EventShot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventShot-umbrella.h"; sourceTree = "<group>"; };
 		AE8C40A9D441121451997688BCCBFC16 /* Pods-EventShot_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventShot_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B024436EE7C004672C51884955022BE0 /* Pods-EventShot_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EventShot_Example.modulemap"; sourceTree = "<group>"; };
-		B2AEED22BE8D4C86E835EF0AE0E9250C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B493422BC834C3A8EE0E3B1C3C5118EF /* Pods-EventShot_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EventShot_Tests.modulemap"; sourceTree = "<group>"; };
+		B908FDC4E16E20835900656016A15323 /* EventShot.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EventShot.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9ED1D6E0F367DD3BD4799AD41CAF776 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BD4BCFFDA07DD9C9B1EF20EFA2F11BB8 /* Pods-EventShot_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventShot_Example-umbrella.h"; sourceTree = "<group>"; };
-		C1D71AF7BA5EB256A91007E52094B0FD /* EventShot.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EventShot.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2E6362266073E359BC29402745FEB43 /* Pods-EventShot_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EventShot_Example-resources.sh"; sourceTree = "<group>"; };
 		CD02C9249D5CE48F33E34B747BB4F2AF /* Pods-EventShot_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventShot_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D650F5F4ACDE6884387FA771667A9ADC /* EventShot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EventShot.xcconfig; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DE60B0152462F2F0B5267BE697C8C43F /* EventShot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventShot-prefix.pch"; sourceTree = "<group>"; };
-		E48D04D2F0519BE17CFD4C1D84F14839 /* EventShot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EventShot-dummy.m"; sourceTree = "<group>"; };
+		E225AF25619AA75DD2FFAE0A575BA502 /* EventShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventShot.swift; path = EventShot/Classes/EventShot.swift; sourceTree = "<group>"; };
 		EEAB65CE02E59E0069E19DB5311403F0 /* Pods-EventShot_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventShot_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F93157415B2FBA403EC02BBA5946932D /* Pods-EventShot_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EventShot_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,19 +105,9 @@
 		0060BA9D825B3F33D05E9EC8F9B9290C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF4C8164D1591ABC463212F05B0DB468 /* EventShot */,
+				1D00405AFF7B9699F47D6B4BE1057A00 /* EventShot */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		09D5B63E43018B6C3735522CA3531668 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C1D71AF7BA5EB256A91007E52094B0FD /* EventShot.podspec */,
-				168192DBD87E212DD29E693C6B9703AB /* LICENSE */,
-				B2AEED22BE8D4C86E835EF0AE0E9250C /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		0B835765B617B1FA15B20AC0DC48BC62 /* Pods-EventShot_Example */ = {
@@ -136,6 +126,17 @@
 			);
 			name = "Pods-EventShot_Example";
 			path = "Target Support Files/Pods-EventShot_Example";
+			sourceTree = "<group>";
+		};
+		1D00405AFF7B9699F47D6B4BE1057A00 /* EventShot */ = {
+			isa = PBXGroup;
+			children = (
+				E225AF25619AA75DD2FFAE0A575BA502 /* EventShot.swift */,
+				A2CD51F230F0698256043FF31292BBDA /* Pod */,
+				7F2C58A8CEBDAFFE5C6C34933F4F94F2 /* Support Files */,
+			);
+			name = EventShot;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -176,18 +177,28 @@
 			);
 			sourceTree = "<group>";
 		};
-		8EB8BF0E4A7387D0F6DDE1AA34C84672 /* Support Files */ = {
+		7F2C58A8CEBDAFFE5C6C34933F4F94F2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				83FE56164E6EDA4B8944C3978CC1C7E6 /* EventShot.modulemap */,
-				0907BDB02F3C91F13DD561A49C2AD242 /* EventShot.xcconfig */,
-				E48D04D2F0519BE17CFD4C1D84F14839 /* EventShot-dummy.m */,
-				DE60B0152462F2F0B5267BE697C8C43F /* EventShot-prefix.pch */,
-				0828A873B3EC0355403425204D9034C6 /* EventShot-umbrella.h */,
-				2436A45BE39C7470A1E1859BB857A338 /* Info.plist */,
+				05659982E7909FA6C05B69C3E17D9A68 /* EventShot.modulemap */,
+				D650F5F4ACDE6884387FA771667A9ADC /* EventShot.xcconfig */,
+				655DF23DA6EDD9E7C571C363F3FF5BBB /* EventShot-dummy.m */,
+				3960F2D3F572A3EC6EE4FCB263526087 /* EventShot-prefix.pch */,
+				A16747208F7932AD0D7876E36F407D3F /* EventShot-umbrella.h */,
+				263AB46698D0B391BBBA83559F00E723 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EventShot";
+			sourceTree = "<group>";
+		};
+		A2CD51F230F0698256043FF31292BBDA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B908FDC4E16E20835900656016A15323 /* EventShot.podspec */,
+				B9ED1D6E0F367DD3BD4799AD41CAF776 /* LICENSE */,
+				4B1F2C0DC73EA3B68AD97D366EC05592 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -196,17 +207,6 @@
 				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF4C8164D1591ABC463212F05B0DB468 /* EventShot */ = {
-			isa = PBXGroup;
-			children = (
-				44AA1BC8690201CACA33B43216F1F450 /* ReplaceMe.swift */,
-				09D5B63E43018B6C3735522CA3531668 /* Pod */,
-				8EB8BF0E4A7387D0F6DDE1AA34C84672 /* Support Files */,
-			);
-			name = EventShot;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		EDB710BFCE177BBF7AC86AD9BACBD2AB /* Pods-EventShot_Tests */ = {
@@ -281,7 +281,7 @@
 			buildConfigurationList = EBACCFE1D30F1808F99EB2ADAE7BAC33 /* Build configuration list for PBXNativeTarget "EventShot" */;
 			buildPhases = (
 				9616E3A149256CD3DD67916DB191BBA9 /* Headers */,
-				60DCF459F7BB727DA0117AF4D6231972 /* Sources */,
+				A70FE9F48B6173D17BD3A80E0AD64924 /* Sources */,
 				7143453E8A0C388F72BB697DF2E281A4 /* Frameworks */,
 				984E96BC771DB6BB5BF32F446D855958 /* Resources */,
 			);
@@ -374,12 +374,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60DCF459F7BB727DA0117AF4D6231972 /* Sources */ = {
+		A70FE9F48B6173D17BD3A80E0AD64924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC7044AAF78E81750A7EA2A3D5DB133 /* EventShot-dummy.m in Sources */,
-				092AFB9C9C95F916DA84042F5618650F /* ReplaceMe.swift in Sources */,
+				075D8A28562F159FC743761B2012BBE9 /* EventShot-dummy.m in Sources */,
+				9D5D07B55FC5BB6DBFA32E7A9C5D073B /* EventShot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +411,7 @@
 /* Begin XCBuildConfiguration section */
 		158A46B9FC1700CDB0F46CBD0937071A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0907BDB02F3C91F13DD561A49C2AD242 /* EventShot.xcconfig */;
+			baseConfigurationReference = D650F5F4ACDE6884387FA771667A9ADC /* EventShot.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -443,7 +443,7 @@
 		};
 		41C2C5CAA3F41BB2F44E48CD27EF35A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0907BDB02F3C91F13DD561A49C2AD242 /* EventShot.xcconfig */;
+			baseConfigurationReference = D650F5F4ACDE6884387FA771667A9ADC /* EventShot.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

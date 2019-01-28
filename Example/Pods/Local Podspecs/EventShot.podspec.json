@@ -1,9 +1,9 @@
 {
   "name": "EventShot",
-  "version": "0.1.0",
-  "summary": "A short description of EventShot.",
+  "version": "0.1.4",
+  "summary": "Take screenshots while triggering some events",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/rocketlobster/EventShot",
+  "homepage": "https://github.com/rocketlobster/eventshot",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "rocketlobster": "theo@cheerz.com"
   },
   "source": {
-    "git": "https://github.com/rocketlobster/EventShot.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/rocketlobster/eventshot.git",
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
