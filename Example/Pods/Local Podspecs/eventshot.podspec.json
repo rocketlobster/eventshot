@@ -1,0 +1,22 @@
+{
+  "name": "eventshot",
+  "version": "0.1.0",
+  "summary": "A short description of eventshot.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rocketlobster/eventshot",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rocketlobster": "theo@cheerz.com"
+  },
+  "source": {
+    "git": "https://github.com/rocketlobster/eventshot.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "eventshot/Classes/**/*"
+}

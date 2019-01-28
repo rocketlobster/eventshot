@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'eventshot'
+  s.name             = 'EventShot'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of eventshot.'
+  s.summary          = 'Record when events are triggered with screenshots'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
