@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EventShot'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of EventShot.'
 
 # This description is used to generate tags and improve search results.
