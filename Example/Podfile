@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EventShot_Example' do
+  pod 'EventShot', :path => '../'
+
+  target 'EventShot_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
