@@ -1,0 +1,6 @@
+framework module EventShot {
+  umbrella header "EventShot-umbrella.h"
+
+  export *
+  module * { export * }
+}

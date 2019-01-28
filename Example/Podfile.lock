@@ -1,0 +1,16 @@
+PODS:
+  - EventShot (0.1.0)
+
+DEPENDENCIES:
+  - EventShot (from `../`)
+
+EXTERNAL SOURCES:
+  EventShot:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EventShot: 07defa288e374687ae399580f56d298e298805d8
+
+PODFILE CHECKSUM: 4779566e747d0d69d96ceea1beeaf9bf05d4648f
+
+COCOAPODS: 1.5.3
