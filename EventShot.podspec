@@ -9,16 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'EventShot'
   s.version          = '0.1.6'
-  s.summary          = 'Take screenshots while triggering some events'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Log events with screenshots'
 
   s.description      = <<-DESC
-Troubleshoot tracking or asynchronous event in iOS by saving screenshots with metadata in your photoroll.
+Troubleshoot tracking or asynchronous events in iOS by saving screenshots with metadata in your photoroll.
                        DESC
 
   s.homepage         = 'https://github.com/rocketlobster/eventshot'
@@ -26,6 +20,7 @@ Troubleshoot tracking or asynchronous event in iOS by saving screenshots with me
   s.author           = { 'rocketlobster' => 'theo@cheerz.com' }
   s.source           = { :git => 'https://github.com/rocketlobster/eventshot.git', :tag => s.version.to_s }
 
+  s.swift_version = '>= 4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'EventShot/Classes/**/*'
