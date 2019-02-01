@@ -20,7 +20,7 @@ Troubleshoot tracking or asynchronous events in iOS by saving screenshots with m
   s.author           = { 'rocketlobster' => 'theo@cheerz.com' }
   s.source           = { :git => 'https://github.com/rocketlobster/eventshot.git', :tag => s.version.to_s }
 
-  s.swift_version = '>= 4.0'
+  s.swift_version = '>= 3.2'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'EventShot/Classes/**/*'
