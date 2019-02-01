@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EventShot'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Log events with screenshots'
 
   s.description      = <<-DESC
